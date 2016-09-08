@@ -2,8 +2,8 @@
 #include "config.h"  // pins, constants definitions
 
 //**********************************************************************
-const unsigned int R_MAX_TICKS = 5;
-const unsigned int Y_MAX_TICKS = 10;
+const unsigned int R_MAX_TICKS = 15;
+const unsigned int Y_MAX_TICKS = 100;
 
 volatile boolean isSample = false;
 boolean isRedPulse = false, isMicroPulse = false;
